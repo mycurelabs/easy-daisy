@@ -22,7 +22,7 @@ const props = defineProps({
   },
   placeholder: {
     type: String,
-    default: 'Select an option hello',
+    default: 'Select an option',
   },
   disabled: {
     type: Boolean,
