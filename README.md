@@ -1,4 +1,4 @@
-# 🌼 Easy Daisy
+# 🤷‍♂️ Easy Daisy 🌼
 
 Vue.js 3 Component Collection for DaisyUI
 
