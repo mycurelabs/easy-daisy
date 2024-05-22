@@ -12,6 +12,8 @@ npm install @mycure/easy-daisy
 
 ### EasySelect
 
+![easy-select](https://github.com/mycurelabs/easy-daisy/assets/8638243/67dc780c-2778-4dc4-9ca8-cdd660ed2bc2)
+
 **Component**
 
 ```vue
@@ -67,6 +69,8 @@ const options = [
 | `search`              | Emitted when the search query changes. |
 
 ### EasyMultipleSelect
+
+![easy-mutiple-select](https://github.com/mycurelabs/easy-daisy/assets/8638243/e8a2fa8f-7e42-4f82-b14b-b630c806298e)
 
 **Component**
 
@@ -125,6 +129,8 @@ const options = [
 | `search`              | Emitted when the search query changes. |
 
 ### EasyCombobox
+
+![easy-combo-box](https://github.com/mycurelabs/easy-daisy/assets/8638243/0f6c32f3-8ea6-42c3-a214-34d977677632)
 
 **Component**
 
