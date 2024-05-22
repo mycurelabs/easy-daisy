@@ -1,0 +1,41 @@
+{
+  "name": "easy-daisy",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/easy-daisy.umd.js",
+  "module": "./dist/easy-daisy.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/easy-daisy.es.js",
+      "require": "./dist/easy-daisy.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@rushstack/eslint-patch": "^1.10.3",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "lodash": "^4.17.21",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "autoprefixer": "^10.4.19",
+    "daisyui": "^4.11.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "postcss": "^8.4.38",
+    "skip-formatting": "link:@vue/eslint-config-prettier/skip-formatting",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.2.8"
+  },
+  "license": "MIT"
+}
