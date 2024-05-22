@@ -1,6 +1,14 @@
 {
   "name": "@mycure/easy-daisy",
+  "description": "A Vue 3 component collection for DaisyUI",
+  "author": "Joff Tiquez",
   "version": "0.0.2",
+  "keywords": [
+    "vue",
+    "vite",
+    "tailwindcss",
+    "daisyui"
+  ],
   "type": "module",
   "files": [
     "dist"
@@ -36,5 +44,9 @@
     "tailwindcss": "^3.4.3",
     "vite": "^5.2.8"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mycurelabs/easy-daisy.git"
+  }
 }
