@@ -1,35 +1,41 @@
-# easy-daisy
+# 🌼 Easy Daisy
 
-This template should help get you started developing with Vue 3 in Vite.
+Vue.js 3 Component Collection for DaisyUI
 
-## Recommended IDE Setup
+## Installation
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-pnpm install
+```bash
+npm install @mycure/easy-daisy
 ```
 
-### Compile and Hot-Reload for Development
+## Usage
 
-```sh
-pnpm dev
-```
+```vue
+<script setup>
+import { EasySelect } from 'easy-daisy';
 
-### Compile and Minify for Production
+const model = ref('Option 1');
+const options = [
+  {
+    label: 'Option 1',
+    value: 'Option 1',
+  },
+  {
+    label: 'Option 2',
+    value: 'Option 2',
+  },
+  {
+    label: 'Option 3',
+    value: 'Option 3',
+  },
+];
 
-```sh
-pnpm build
-```
+</script>
 
-### Lint with [ESLint](https://eslint.org/)
+<template>
+  <EasySelect v-model="model" :options="options" />
 
-```sh
-pnpm lint
+  <p>Selected: {{ model }}</p>
+</template>
+
 ```
